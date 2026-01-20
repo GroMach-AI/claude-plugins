@@ -14,7 +14,7 @@
 
 ### 本地开发测试
 
-使用 `--plugin-dir` 标志加载插件进行测试：
+使用 `--plugin-dir` 标志加载单个插件进行测试：
 
 ```bash
 claude --plugin-dir /path/to/claude-plugins/plugins/git-tools
@@ -22,19 +22,43 @@ claude --plugin-dir /path/to/claude-plugins/plugins/git-tools
 
 ### 通过插件市场安装
 
-在 Claude Code 中运行以下命令安装此插件市场：
+安装分为两步：先添加插件市场，再安装具体插件。
+
+**第一步：添加插件市场**
+
+通过 GitHub 添加（推荐）：
 
 ```
-/plugin install /path/to/claude-plugins
+/plugin marketplace add GroMach-AI/claude-plugins
 ```
 
-或者通过 Git URL 安装：
+或通过本地路径添加：
 
 ```
-/plugin install https://github.com/gromach/claude-plugins
+/plugin marketplace add /path/to/claude-plugins
+```
+
+**第二步：安装插件**
+
+```
+/plugin install git-tools@gromach-team-vibe
 ```
 
 安装后可使用 `/help` 查看可用命令。
+
+### 卸载
+
+卸载插件：
+
+```
+/plugin uninstall git-tools@gromach-team-vibe
+```
+
+移除插件市场：
+
+```
+/plugin marketplace remove gromach-team-vibe
+```
 
 ## 插件详情
 
