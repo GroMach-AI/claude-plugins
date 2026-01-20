@@ -1,0 +1,8 @@
+{
+  "name": "git-tools",
+  "description": "Git workflow tools: commit with Conventional Commits format and create PRs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gromach Team"
+  }
+}

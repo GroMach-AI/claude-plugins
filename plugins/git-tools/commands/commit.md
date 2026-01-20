@@ -1,6 +1,5 @@
 ---
-name: git-commit
-description: Create well-structured git commits using Conventional Commits format. Use this skill when the user asks to commit changes, create a commit, review changes before committing, check what changed, or prepare to commit. Also activates for related tasks like analyzing staged/unstaged changes, drafting commit messages, or understanding recent commit history.
+description: Create well-structured git commits using Conventional Commits format
 ---
 
 # Git Commit
