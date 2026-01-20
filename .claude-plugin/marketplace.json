@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "git-tools",
-      "source": "./git-tools",
+      "source": "git-tools",
       "description": "Git workflow tools: commit with Conventional Commits format and create PRs",
       "version": "1.0.0",
       "author": {
