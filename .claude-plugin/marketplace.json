@@ -6,13 +6,12 @@
   },
   "metadata": {
     "description": "Gromach Team Development Plugins",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "git-tools",
-      "source": "git-tools",
+      "source": "./plugins/git-tools",
       "description": "Git workflow tools: commit with Conventional Commits format and create PRs",
       "version": "1.0.0",
       "author": {
